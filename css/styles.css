@@ -1,0 +1,61 @@
+/* ================================= 
+  Base Gallery Styles
+==================================== */
+* {
+    box-sizing: border-box;
+  }
+  
+body {
+    background: #fff;
+    font-family: 'Merriweather', serif;
+    font-size: 1.2rem;
+    color: #525252;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+form {
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 400px;
+    height: 50px;
+    margin: 0 auto;
+    border: solid 2px rgb(170, 170, 170);
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+input {
+    border: none;
+    height: 100%;
+    width: 100%;
+    font: 30px;
+    padding: 5px;
+    color: rgb(46, 45, 45);
+
+}
+  
+::placeholder {
+    font-size: 20px;
+}
+  
+  /* ===================================== 
+     Gallery Layout
+  ======================================== */
+
+  .gallery {
+    max-width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+
+  
+  .gallery_photo {
+    width: 100%;
+    height: auto;
+  }
