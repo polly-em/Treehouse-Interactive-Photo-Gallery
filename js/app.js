@@ -5,7 +5,7 @@ const search = document.querySelector('#search');
 //https://www.geeksforgeeks.org/search-bar-using-html-css-and-javascript/
 
 function search_photos() { 
-    let input = document.getElementById('searchbar').value 
+    let input = document.getElementById('searchbar').value;
     input = input.toLowerCase(); 
     let img = document.getElementsByClassName('photos'); 
       
@@ -14,7 +14,7 @@ function search_photos() {
             img[i].style.display="none"; 
         } 
         else { 
-            img[i].style.display="list-item";                  
+            img[i].style.display="block";                  
         } 
     } 
 } 
