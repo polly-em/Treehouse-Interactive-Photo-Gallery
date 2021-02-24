@@ -1,17 +1,16 @@
 <!DOCTYPE html>
-<html>
-  
-  <head>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Interactive Photo Gallery</title>
-      <link rel="stylesheet" href="css/baguetteBox.min.css">
-      <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">​
-      <link href="css/styles.css" rel="stylesheet">
-  </head>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/baguetteBox.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Interactive Photo Gallery</title>
+</head>
 
   <body>
+    <header>
       <form action="#"><input id="searchbar" onkeyup="search_photos()" type="text" name="search" placeholder="Search"></form>
-    <main>
+    </header>
         <div class="gallery">
               <a href="photos/01.jpg" class="photos" data-caption="I love hay bales. Took this snap on a drive through the 
               countryside past some straw fields."><img src="photos/thumbnails/01.jpg" alt="Hay bales in the countryside"></a>
@@ -49,7 +48,6 @@
               <a href="photos/12.jpg" class="photos" data-caption="I walked through this meadow of bluebells and got a good view of the snow on the mountain before the fog came in.">
               <img src="photos/thumbnails/12.jpg" class="photos" alt="A meadow full of flowers with snowy mountains in the distance"></a>
           </div>
-      </main>
 
     <script src="js/baguetteBox.min.js"></script>
     <script src="js/searchFilter.js"></script>
