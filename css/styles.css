@@ -20,6 +20,7 @@ form {
     display: flex;
     flex-direction: row;
     align-items: center;
+    text-align: center;
     width: 400px;
     height: 50px;
     margin: 0 auto;
@@ -35,7 +36,6 @@ input {
     font: 30px;
     padding: 5px;
     color: rgb(46, 45, 45);
-
 }
   
 ::placeholder {
